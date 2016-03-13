@@ -4,11 +4,7 @@ Connect a BLE Nano to mobile devices by providing a HID keyboard interface
 Turn a BLE Nano into a wireless keyboard.
 
 This library makes sending wireless keystrokes to bluetooth low energy devices easy, thanks to a standard Print interface (like that used by Serial).
-See the project site:
-
-	http://flyingcarsandstuff.com/projects/NanoKeys/
-
-for docs, caveats, installation directives and examples.
+See the [NanoKeys project site](http://flyingcarsandstuff.com/projects/NanoKeys/) for docs, caveats, installation directives and examples.
 
 
 # License
