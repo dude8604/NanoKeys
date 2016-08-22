@@ -9,6 +9,10 @@
  * http://flyingcarsandstuff.com/projects/NanoKeys/
  *
  *
+ * 	Modified on: Aug 21, 2016
+ * 		Author: Philip Weiss (dude8604)
+ * 
+ * 
  * This program library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -128,6 +132,12 @@ public:
 
 
 	void keyUp();
+	
+	/* dude8604 */
+	
+	bool keyDown(uint8_t keyCode);
+	
+	/* end dude8604 */
 
 protected:
 
