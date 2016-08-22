@@ -9,6 +9,10 @@
  * http://flyingcarsandstuff.com/projects/NanoKeys/
  *
  *
+ * 	Modified on: Aug 21, 2016
+ * 		Author: Philip Weiss (dude8604)
+ * 
+ * 
  * This program library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -73,5 +77,26 @@ size_t Keyboard::write(uint8_t c)
 
 	return 0;
 }
+
+/* PTW */
+
+bool Keyboard::pressKey(uint8_t keyCode) {
+	
+	Manager * man = Manager::getInstance();
+
+	return man->keyboardService()->keyDown(keyCode);
+
+	
+}
+
+void Keyboard::releaseKey() {
+	
+	Manager * man = Manager::getInstance();
+
+	man->keyboardService()->keyUp();
+	
+}
+
+/* end PTW */
 
 } /* namespace NanoKeys */
