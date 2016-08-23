@@ -113,7 +113,7 @@ void loop() {
       case 'e': //if the character 'e' was sent
         TheKeyboard.pressKey(KEY_CODE_ENTER); //press enter key
         break;
-      case 't' //if the character 't' was sent
+      case 't': //if the character 't' was sent
         TheKeyboard.pressKey(KEY_CODE_T); //press T key so we can see text being written
         break;
     }
